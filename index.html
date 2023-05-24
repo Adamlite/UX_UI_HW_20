@@ -3,7 +3,7 @@
 <head>
     <title>UX/UI Homework 20</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/index.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
@@ -13,73 +13,288 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   </head>
   <body>
-    <!-- Navigation Section using Bootstrap's nav component -->
-    <!-- Comment: Navigation Section (Component: nav) -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </nav>
-  
-    <!-- Introduction Section using Bootstrap's jumbotron component -->
-    <!-- Comment: Introduction Section (Component: jumbotron) -->
+    <div class="container pt-3 pb-3">
+      <nav class="navbar navbar-expand-lg">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item mr-3">
+            <a class="nav-link active" aria-current="page" href="#">WORK</a>
+          </li>
+          <li class="nav-item mr-3">
+            <a class="nav-link" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item mr-3">
+            <a class="nav-link" href="#">CONTACT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">RESUME</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item mr-3">
+            <a class="nav-link" href="#">BEHANCE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">LINKEDIN</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="jumbotron">
-            <h1 class="display-4">Hello, world!</h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-            <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            <p class="lead">
-              <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-            </p>
-          </div>
-  
-    <!-- Research Section using Bootstrap's card, list group, or collapse components -->
-    <!-- Comment: Research Section (Component: card) -->
-    <div class="card">
-      <!-- Research content goes here -->
-    </div>
-  
-    <!-- Problem Statement Section using Bootstrap's jumbotron or col system -->
-    <!-- Comment: Problem Statement Section (Component: jumbotron) -->
-    <div class="jumbotron">
-      <!-- Problem statement content goes here -->
-    </div>
-  
-    <!-- Iteration Section using Bootstrap's card, list group, collapse, or media object components -->
-    <!-- Comment: Iteration Section (Component: card) -->
-    <div class="card">
-      <!-- Iteration content goes here -->
-    </div>
-  
-    <!-- Prototype Section using Bootstrap's col system -->
-    <!-- Comment: Prototype Section (Col System) -->
-    <div class="row">
-      <div class="col">
-        <!-- Prototype content goes here -->
+      <div class="w-50 mx-auto">
+        <img src="/images/IYC Logo.svg" alt="" class="img-fluid w-100">
       </div>
     </div>
-  
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h4>Team</h4>
+          <p><strong>Project Manager - </strong>Adam Lee</p>
+          <p><strong>UX Designer - </strong>Karine Zahabi</p>
+          <p><strong>UX Designer - </strong>Javad Hakimpanah</p>
+          <p><strong>UX Researcher - </strong>Kathy (Ke) Yan</p>
+          <p><strong>UX Researcher - </strong>Hua Tong</p>
+        </div>
+        <div class="col">
+          <h4>Tools</h4>
+          <p><strong>Miro</strong></p>
+          <p><strong>Figma</strong></p>
+          <p><strong>Adobe Illustrator</strong></p>
+          <p><strong>Photoshop</strong></p>
+        </div>
+        <div class="col">
+          <h4>Project Duration</h4>
+          <p><strong>Date Start - </strong>March 23 - April 6, 2023</p>
+          <p><strong>Duration - </strong>3 Weeks</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col pr-1"> 
+          <img src="/images/IYC Jumbotron Image 1.webp" alt="" class="img-fluid">
+        </div>
+        <div class="col px-1">
+          <img src="/images/IYC Jumbotron Image 2.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="col pl-1">
+          <img src="/images/IYC Jumbotron Image 3.webp" alt="" class="img-fluid">
+        </div>
+      </div>
+      <div class="row">
+        <h2 class="text-center text-uppercase">Problem Statement</h2>
+        <p>Immigrant youths and parents in Canada struggle to find and trust the educational and social support programs on the Immigrant Youth Centre website. We need to improve the communication of program information, build organization credibility, and increase enrolment.</p>
+      </div>
+      <div class="row">
+        <h2>Objectives & Goals</h2>
+        <p>To increase program enrolment and user return, and for users to have more trust in the organization.</p>
+      </div>
+    </div>
+    <div class="container bg-light rounded-4 pt-2 pb-5 px-5">
+      <div class="row">
+        <div class="col offset-3">
+          <h2>Research</h2>
+        </div>
+      </div>
+      <div class="row my-4">
+        <div class="col-3">
+          <img src="/images/Man.png" alt="" class="img-fluid">
+        </div>
+        <div class="col">
+          <p>Kevin, Program Manager</p>
+          <p>“We get calls from users inquiring about information that is on the website so we know they are not successfully getting to the details they need”</p>
+        </div>
+      </div>
+      <div class="row mt-0">
+        <div class="col-3">
+          <img src="/images/Woman.png" alt="" class="img-fluid">
+        </div>
+        <div class="col">
+          <p>Yifei, Youth Worker</p>
+          <p>“Often times, users need to view the content in their native language and shy away from registration because of that blocker.”</p>
+        </div>
+      </div>
+      <div class="row text-center">
+        <p>Aside from interviewing the staff, we conducted 25 online surveys and 5 in-person interviews</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <p>Through interviewing both immigrant youths and their parents on their pain points with the current website, they said that it was: <strong>confusing, unorganized,</strong> and <strong>cluttered.</strong></p>
+      </div>
+      <div class="row">
+        <h2>The Current Website on Mobile</h2>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <img src="/images/IYC Mobile Screens- Old copy.png" alt="" class="img-fluid w-100">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <img src="/images/IYC Miro Sticky Notes.png" alt="" class="img-fluid w-100">
+        </div>
+      </div>
+      <div class="row">
+        <h2 class="text-center text-uppercase">Observations</h2>
+      </div>
+      <div class="row">
+        <div class="col text-center">
+          <p class="observ-number">77%</p>
+          <p>Short-term goals in seeking out immigrant youth services Improving Language Skill</p>
+        </div>
+        <div class="col text-center">
+          <p class="observ-number">72%</p>
+          <p>Motivation to seek out services for their children to Achieve Social and Education Goal</p>
+        </div>
+        <div class="col text-center">
+          <p class="observ-number">86%</p>
+          <p>of the surveyed are caregivers & parents</p>
+        </div>
+      </div>
+    </div>
+    <div class="container bg-danger text-white text-center px-5 pt-2 pb-5 rounded-4">
+      <div class="row">
+        <h2 class="user-insight">User Insight</h2>
+        <p>Immigrant youths and parents, having limited knowledge of the local language and customs, need to feel confident that the programs and resources they seek are credible and beneficial to their success in adapting to Canadian life. They need reassurance that these services will be effective in helping them with their specific needs and that they will be supported throughout the process.</p>
+      </div>
+    </div>
+    <div class="container bg-light rounded-4 text-danger px-5 pt-2 pb-5 mt-5">
+      <div class="row">
+        <h2>User Needs</h2>
+        <ul>
+          <li>User needs the program information presented to them clearly and be able to navigate the site without confusion or roadblocks</li>
+          <li>User needs reassurance the programs are credible and beneficial, which is achieved through the reliability of the site</li>
+          <li>User needs reminders for upcoming classes and events. Often a user will miss programs because they were not properly informed</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <p>With the data collect, we brainstormed ides and after some iterations we creates a new Task & User Flow, and a Site Map</p>
+      </div>
+      <div class="row">
+        <img src="/images/Task Flow copy.png" alt="" class="img-fluid w-100">
+      </div>
+      <div class="row">
+        <img src="/images/User Flow copy.png" alt="" class="img-fluid w-100">
+      </div>
+      <div class="row">
+        <img src="/images/Site Map copy.png" alt="" class="img-fluid w-100">
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <h2>Low-Fidelity Wireframes</h2>
+      </div>
+      <div class="row">
+        <img src="/images/IYC Low Fidelity Wireframes copy.png" alt="" class="img-fluid w-100">
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <h2>Features & Functionalities</h2>
+      </div>
+      <div class="row px-5 text-center">
+        <div class="col">
+          <div class="w-50 mx-auto">
+            <img src="/images/Icon 1.png" alt="" class="img-fluid w-100">
+          </div>
+          <p class="mt-4">A more logical and user-friendly web flow</p>
+        </div>
+        <div class="col">
+          <div class="w-50 mx-auto">
+            <img src="/images/Icon 2.png" alt="" class="img-fluid w-100">
+          </div>
+          <p class="mt-4">A filter system for users to easily navigate programs catered to their needs and situations</p>
+        </div>
+        <div class="col">
+          <div class="w-50 mx-auto">
+            <img src="/images/Icon 3.png" alt="" class="img-fluid w-100">
+          </div>
+          <p class="mt-4">The ability to add programs to the user’s calendars, as well optional reminders via email/text/follow-up phone call</p>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <img src="/images/IYC Rebrand Style Guide.png" alt="" class="img-fluid w-100">
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <h2>High-Fidelity Prototype - Mobile</h2>
+      </div>
+      <div class="row">
+        <img src="/images/IYC Mobile Screens- New copy.png" alt="" class="img-fluid w-100">
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <h2>High-Fidelity Prototype - Desktop</h2>
+      </div>
+      <div class="row">
+        <img src="/images/IYC Screen Desktop Screens copy.png" alt="" class="img-fluid w-100">
+      </div>
+    </div>
+    <div class="container mt-5 bg-light rounded-4 pt-2 pb-5 px-5">
+      <div class="row">
+        <h2>Final Thoughts & Future Improvements</h2>
+        <ol>
+          <li>Include more languages to have the content available to more users in their native language.</li>
+          <li>
+            More filter options to refine parameters users use to search. Being able to filter:
+            <ol type="a">
+              <li>Different programs/categories</li>
+              <li>Instructors</li>
+              <li>Newest/Oldest</li>
+            </ol>
+          </li>
+          <li>Ratings and Reviews Feature.</li>
+          <li>Implemented social media engagement platform into the website to keep users more connected.</li>
+          <li>Add more video content.</li>
+        </ol>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row no-gutters">
+        <div class="col pr-1">
+          <img src="/images/Adam.png" alt="" class="img-fluid w-100">
+        </div>
+        <div class="col d-flex align-items-center justify-content-center">
+          <h2 class="m-auto text-center">The Team</h2>
+        </div>
+        <div class="col pl-1">
+          <img src="/images/Karine.png" alt="" class="img-fluid w-100">
+        </div>
+      </div>
+      <div class="row mt-1 no-gutters">
+        <div class="col pr-1">
+          <img src="/images/Kathy.png" alt="" class="img-fluid w-100">
+        </div>
+        <div class="col">
+          <img src="/images/Javad.png" alt="" class="img-fluid w-100">
+        </div>
+        <div class="col pl-1">
+          <img src="/images/Hua.png" alt="" class="img-fluid w-100">
+        </div>
+      </div>
+    </div>
+    <div class="container pt-3 pb-3">
+      <nav class="navbar navbar-expand-lg">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item mr-3">
+            <a class="nav-link active text-uppercase" aria-current="page" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item mr-3">
+            <a class="nav-link active text-uppercase" aria-current="page" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-uppercase" aria-current="page" href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="row mt-0 text-center">
+        <p>&copy; 2023</p>
+      </div>
+    </div>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   </body>
 </html>
